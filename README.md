@@ -1,5 +1,6 @@
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 <h1>osTicket - Installation Guide</h1>
-In this guide, I'll walk you through the installation process of osTicket, a popular ticketing system, on a Windows 10 Pro virtual machine hosted on Microsoft Azure. Before we get started, please download the necessary installation files from [this location](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6).
+In this guide, I'll walk you through the installation process of osTicket, a popular ticketing system, on a Windows 10 Pro virtual machine hosted on Microsoft Azure. Before we get started, please download the necessary installation files from  <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">here!</a>
 
 <h2>Prerequisites and Technology Stack</h2>
 To ensure a smooth installation, we'll need the following components:
