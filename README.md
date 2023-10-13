@@ -11,7 +11,7 @@ To ensure a smooth installation, we'll need the following components:
 - MySQL
 
 <h2>Supported Operating System</h2>
-The installation will be performed on a Windows 10 Pro system running version 21H2.
+The installation will be performed on a Windows 10 Pro system running version 22H2.
 
 <h2>Installation Steps</h2>
 Let's get started with the installation process:
@@ -19,7 +19,7 @@ Let's get started with the installation process:
 1. **Enable Internet Information Services (IIS)**: 
    - Open the Control Panel and navigate to "Programs" and "Turn Windows Features On or Off." 
    - Under "Internet Information Services," expand "Web Management Tools" and enable "IIS Management Console." 
-   - Further, under "World Wide Web Services" and "Application Development Features," enable "CGI."
+   - Further, under "World Wide Web Services" and "Application Development Features," enable "CGI." and "Common HTTP Features"
 
 2. **Install PHP Manager and Rewrite Module**:
    - Download and install "PHP Manager for IIS" (PHPManagerforIIS_V1.5.0.msi) from the installation files.
@@ -37,7 +37,7 @@ Let's get started with the installation process:
    - During the setup, agree to the terms, choose a "Typical" installation, and select "Install" to proceed.
    - Launch the Configuration Wizard after installation.
    - Choose "Standard Configuration," ensure "Install As Windows Service" and "Launch the MySQL Server automatically" are checked.
-   - Set your credentials; the username can be "root," and the password can be "Password1" for this lab.
+   - Set your credentials; the username will be "root," and the password can be "Password1" for this lab.
 
 6. **Install osTicket**:
    - Download osTicket v1.15.8 from the installation files.
@@ -45,6 +45,8 @@ Let's get started with the installation process:
    - Rename the "upload" folder to "osTicket."
 
 7. **Configure Extensions**:
+   - Run IIS as admin.
+   - Register PHP 
    - In the IIS console, navigate to "Sites" -> "Default" -> "osTicket."
    - Click "Browse *:80," and the osTicket installation page will appear.
    - To enable some extensions, access the PHP Manager within the osTicket menu in IIS. 
