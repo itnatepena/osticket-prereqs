@@ -85,7 +85,7 @@ Let's get started with the installation process:
 
 8. **Adjust File Permissions**:
    - Rename "ost-sampleconfig.php" to "ost-config.php" in "C:\inetpub\wwwroot\osTicket\include."
-   - Modify the permissions of "ost-config.php" by removing full access for Everyone and setting it to having full access during setup.
+   - Modify the permissions of "ost-config.php" by giving full access to "Everyoen" during setup.
 
 
 9. **Setup MySQL Database**:
