@@ -7,9 +7,10 @@ To ensure a smooth installation, we'll need the following components:
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
+- osTicket Installation Files (Found Above)
 
 <h2>Operating System</h2>
-The installation will be performed on a Windows 10 Pro system running version 22H2.
+The installation will be performed on a Windows 10 Pro system.
 
 <h2>Installation Steps</h2>
 Let's get started with the installation process:
