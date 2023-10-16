@@ -2,15 +2,13 @@
 <h1>osTicket - Installation Guide</h1>
 In this guide, I'll walk you through the installation process of osTicket, a popular ticketing system, on a Windows 10 Pro virtual machine hosted on Microsoft Azure. Before we get started, please download the necessary installation files from  <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">here!</a>
 
-<h2>Prerequisites and Technology Stack</h2>
+<h2>Prerequisites</h2>
 To ensure a smooth installation, we'll need the following components:
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop Connection
-- Internet Information Services (IIS)
-- MySQL
 
-<h2>Supported Operating System</h2>
+<h2>Operating System</h2>
 The installation will be performed on a Windows 10 Pro system running version 22H2.
 
 <h2>Installation Steps</h2>
